@@ -78,20 +78,20 @@ const firstUser = {
   gender: "Female",
   age: 17,
   email: "monica@dingdong.com",
-  favoriteColor: colorUser1,
+  favoriteColor: Array.from(colorUser1),
   isHavePet: true,
   education: educationUser1,
-  favoriteRestaurant: restaurantUser1,
+  favoriteRestaurant: Array.from(restaurantUser1),
 };
 const secondUser = {
   name: "Wendy",
   gender: "Male",
   age: 23,
   email: "wendy@dingdong.com",
-  favoriteColor: colorUser2,
+  favoriteColor: Array.from(colorUser2),
   isHavePet: false,
   education: educationUser2,
-  favoriteRestaurant: restaurantUser2,
+  favoriteRestaurant: Array.from(restaurantUser2),
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
