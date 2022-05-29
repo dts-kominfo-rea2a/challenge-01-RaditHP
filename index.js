@@ -1,9 +1,7 @@
-let color = new Set();
-let favoriteRestaurant = new Set();
-let colorUser1 = color;
-let colorUser2 = color;
-let restaurantUser1 = favoriteRestaurant;
-let restaurantUser2 = favoriteRestaurant;
+let colorUser1 = new Set();
+let colorUser2 = new Set();
+let restaurantUser1 = new Set();
+let restaurantUser2 = new Set();
 
 colorUser1.add("Yellow");
 colorUser1.add("Pink");
